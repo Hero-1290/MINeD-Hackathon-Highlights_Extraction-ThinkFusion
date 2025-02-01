@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highlights For Gammes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Highlight Reel</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Highlights</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Side Panel for Video List -->
+            <div class="side-panel">
+                <h2>Highlights</h2>
+                <ul id="video-playlist">
+                    <!-- Video list will be populated dynamically -->
+                </ul>
+            </div>
+
+            <!-- Video Player -->
+            <div class="video-container">
+                <video id="highlight-video" controls>
+                    Your browser does not support the video tag.
+                </video>
+                <div class="video-controls">
+                    <button id="play-pause">Play</button>
+                    <input type="range" id="seek-bar" value="0">
+                    <span id="current-time">00:00</span> / <span id="duration">00:00</span>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2023 Highlight Reel. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
