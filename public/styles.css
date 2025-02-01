@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    background: #0f0f0f;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid #00ffcc;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00ffcc;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex: 1;
+}
+
+/* Side Panel */
+.side-panel {
+    width: 250px;
+    background: rgba(0, 0, 0, 0.6);
+    border-right: 2px solid #00ffcc;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.side-panel h2 {
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+    margin-bottom: 20px;
+}
+
+#video-playlist {
+    list-style: none;
+    padding: 0;
+}
+
+#video-playlist li {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #00ffcc;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#video-playlist li:hover {
+    background: rgba(0, 255, 204, 0.2);
+}
+
+/* Video Container */
+.video-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+video {
+    width: 73%;
+    max-height: 70vh;
+    border: 2px solid #00ffcc;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 1);
+}
+
+.video-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#play-pause {
+    background: #00ffcc;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#play-pause:hover {
+    background: #00ccaa;
+}
+
+#seek-bar {
+    flex: 1;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 2px solid #00ffcc;
+}
