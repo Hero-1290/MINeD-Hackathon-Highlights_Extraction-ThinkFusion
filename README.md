@@ -10,9 +10,9 @@
 -> Firstly, it will generate all the small highlights, then it will combine all the hilights in one final video. <br>
  <br>
 
- === Make Sure That These Paths are Set Properly in (main.py)===
--> FFMPEG_PATH = "C:/Users/Bhaumit/Important Software Files/ffmpeg-master-latest-win64-gpl-shared/bin/ffmpeg.exe".
--> video_file = "F:/game-highlights-extraction/uploads/new_v.mp4".
+ === Make Sure That These Paths are Set Properly in (main.py)===  <br>
+-> FFMPEG_PATH = "C:/Users/Bhaumit/Important Software Files/ffmpeg-master-latest-win64-gpl-shared/bin/ffmpeg.exe". <br>
+-> video_file = "F:/game-highlights-extraction/uploads/new_v.mp4". <br>
 
 
 !!! To test the model, using small size and length video is preferable. <br>
