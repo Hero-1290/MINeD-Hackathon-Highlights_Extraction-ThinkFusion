@@ -5,9 +5,9 @@
 
 === To Make Highlights === <br>
 -> To run the ML model, first go to where the main.py is located then use command "python main.py" or "python3.py" <br>
--> Make sure that the video file from which the highlights to be extracted is in uploads folder. <br>
+-> Make sure that the video file from which the highlights are to be extracted is in "uploads" folder. <br>
 -> After running, it will take some time to proceed based on the size and length of the video. <br>
--> Firstly, it will generate all the small highlights then it will combine all the hilights in one final video. <br>
+-> Firstly, it will generate all the small highlights, then it will combine all the hilights in one final video. <br>
  <br>
 
 !!! To test the model, using small size and length video is preferable. <br>
